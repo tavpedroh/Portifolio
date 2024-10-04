@@ -65,3 +65,24 @@
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.container__skills{
+    display: flex;
+    align-content:flex-end ;
+    flex-direction: column;
+}
+.container__skills__logo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.container__skills__logo_icon{
+    width: 70px;
+    height: 70px;
+    background-color: var(--cor-branco);
+    padding: 50px;
+    
+}
+.container__skills__logo_botao{
+    
+}

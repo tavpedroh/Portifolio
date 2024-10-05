@@ -9,13 +9,14 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: var(--fonte);
     color: var(--cor-preto);
     background-color: var(--cor-branco-preto);
 }
 
+/* Header */
 .header{
     display: flex;
     justify-content: space-around;
@@ -28,19 +29,22 @@
     display: flex;
     gap: 32px;
 }
+
+/* Conteudo */
 .container{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    
 }
 
+/* Inicio */
 .container__inicio{
     display: flex;
     justify-content: space-around;
-    
+    padding: 0px 250px 0px 250px;
     
 }
-
 .container__inicio__esquerda{
     display: flex;
     
@@ -48,16 +52,30 @@
     flex-flow: column wrap;
     padding-top: 62px;
     padding-bottom: 62px;
+    padding-right: 50px;
 }
 
+/* texto */
 .container__inicio__esquerda__titulo{
     font-size: 52px;
     flex-wrap: wrap;
 }
-
-.container__inicio__link{
-
+.container__inicio__esquerda__subtitulo{
+    font-size: 22px;
+    padding-right: 50px;
 }
+.container__inicio__link{
+    padding-right: 50px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.container__inicio__link__texto{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* foto */
 .container__inicio_foto{
     border-radius: 100%;
     height: 1%;
@@ -65,24 +83,64 @@
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+
+
+/* sobre Mim */
+.container__sobreMim{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+    background-color: var(--cor-azul);
+    padding: 100px 250px 100px 250px;
+}
+.container__sobreMim__titulo{
+    font-size: 32px;
+    background-color: var(--cor-azul);
+}
+.container__sobreMim__subtitulo{
+    font-size: 16px;
+    padding-right: 500px;
+    background-color: var(--cor-azul);
+}
+
+
+
+/* Skills */
 .container__skills{
     display: flex;
-    align-content:flex-end ;
     flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 0px 250px 0px 250px;
 }
+.container__skills_titulo{
+    font-size: 32px;
+}
+
+/* Logos */
 .container__skills__logo{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    /* flex-flow: row wrap; */
+    /* justify-content: flex-start; */
+    flex-direction: row;
     gap: 16px;
-}
-.container__skills__logo_icon{
-    width: 70px;
-    height: 70px;
-    background-color: var(--cor-branco);
-    padding: 50px;
     
 }
 .container__skills__logo_botao{
+    background-color: var(--cor-branco);
     
+    padding: 100%;
+    
+}
+.container__skills__logo_icon{
+    width: 20px;
+    height: 20px;
+    
+    background-color: var(--cor-branco);
+    
+}
+.container__skills__logo__botao__texto{
+    background-color: var(--cor-branco);
+    font-size: 16px;
 }

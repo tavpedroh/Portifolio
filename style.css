@@ -94,17 +94,17 @@
     display: flex;
     flex-flow: column wrap;
     gap: 16px;
-    background-color: var(--cor-azul);
+    background-color: var(--cor-branco);
     padding: 100px 250px 100px 250px;
 }
 .container__sobreMim__titulo{
     font-size: 32px;
-    background-color: var(--cor-azul);
+    background-color: var(--cor-branco);
 }
 .container__sobreMim__subtitulo{
     font-size: 16px;
     padding-right: 500px;
-    background-color: var(--cor-azul);
+    background-color: var(--cor-branco);
 }
 
 
@@ -115,34 +115,105 @@
     flex-direction: column;
     align-items: center;
     gap: 32px;
-    padding: 0px 250px 0px 250px;
+    padding: 50px 250px 50px 250px;
 }
-.container__skills_titulo{
+.container__skills__titulo{
     font-size: 32px;
 }
 
 /* Logos */
 .container__skills__logo{
     display: flex;
-    /* flex-flow: row wrap; */
-
-    /* gap: 16px; */
-    background-color: var(--cor-branco);
+    flex-flow: row wrap;
+    gap: 75px;
 }
 .container__skills__logo_botao{
-    background-color: var(--cor-branco);
-    
-    
+    /* background-color: var(--cor-branco); */
+    display: flex;
+    justify-content: center;
 }
 .container__skills__logo_icon{
-    /* width: 20px;
-    height: 20px; */
-   
-    background-color: var(--cor-branco);
-    
+    width: 50px;
+    height: 50px;
+    /* background-color: var(--cor-branco); */
 }
 .container__skills__logo__botao__texto{
-    background-color: var(--cor-branco);
+    /* background-color: var(--cor-branco); */
     font-size: 16px;
     
 }
+
+
+
+/* hobbies */
+.container__hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 50px 250px 50px 250px;
+    /* background-color: var(--cor-branco); */
+}
+.container__hobbies__titulo{
+    font-size: 32px;
+    /* background-color: var(--cor-branco); */
+}
+
+/* logos */
+.container__hobbies__logo{
+    display: flex;
+    gap: 40px;
+    /* background-color: var(--cor-branco); */
+}
+.container__hobbies__logo__botao{
+    
+}
+.container__hobbies__logo_icon{
+    width: 50px;
+    height: 50px;
+    /* background-color: var(--cor-branco); */
+}
+.container__hobbies__logo__botao__texto{
+    /* background-color: var(--cor-branco); */
+    font-size: 16px;
+    
+}
+
+
+
+/* formacao */
+
+.container__formacao{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 50px 250px 50px 250px;
+}
+
+.container__formacao__titulo{
+    background-color: var(--cor-branco);
+    font-size: 32px;
+}
+
+/* logos */
+.container__formacao__logo{
+    background-color: var(--cor-branco);
+    display: flex;
+    gap: 40px;
+}
+
+.container__formacao__logo_icon{
+    background-color: var(--cor-branco);
+}
+
+.container__formacao__logo__botao{
+    background-color: var(--cor-branco);
+}
+
+.container__formacao__logo__botao__texto{
+    background-color: var(--cor-branco);
+    font-size: 16px;
+}
+

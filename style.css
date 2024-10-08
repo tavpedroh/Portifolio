@@ -64,11 +64,14 @@
     font-size: 22px;
     padding-right: 50px;
 }
+
+/* link */
 .container__inicio__link{
     padding-right: 50px;
     gap: 32px;
     display: flex;
     flex-direction: row;
+    list-style: none;
 }
 .container__inicio__link__texto{
     font-size: 16px;
@@ -122,25 +125,24 @@
 .container__skills__logo{
     display: flex;
     /* flex-flow: row wrap; */
-    /* justify-content: flex-start; */
-    flex-direction: row;
-    gap: 16px;
-    
+
+    /* gap: 16px; */
+    background-color: var(--cor-branco);
 }
 .container__skills__logo_botao{
     background-color: var(--cor-branco);
     
-    padding: 100%;
     
 }
 .container__skills__logo_icon{
-    width: 20px;
-    height: 20px;
-    
+    /* width: 20px;
+    height: 20px; */
+   
     background-color: var(--cor-branco);
     
 }
 .container__skills__logo__botao__texto{
     background-color: var(--cor-branco);
     font-size: 16px;
+    
 }

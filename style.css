@@ -22,9 +22,14 @@
     justify-content: space-around;
     padding-top: 32px;
     padding-bottom: 32px;
-    text-decoration: none;
+    
     
 }
+
+.header__botao{
+    text-decoration: none;
+}
+
 .header__opcoes{
     display: flex;
     gap: 32px;
@@ -63,6 +68,7 @@
 .container__inicio__esquerda__subtitulo{
     font-size: 22px;
     padding-right: 50px;
+    font-weight: 400;
 }
 
 /* link */
@@ -76,6 +82,7 @@
 .container__inicio__link__texto{
     font-size: 16px;
     text-decoration: none;
+    font-weight: 300;
 }
 
 /* foto */
@@ -95,7 +102,7 @@
     flex-flow: column wrap;
     gap: 16px;
     background-color: var(--cor-branco);
-    padding: 100px 250px 100px 250px;
+    padding: 150px 250px 150px 250px;
 }
 .container__sobreMim__titulo{
     font-size: 32px;
@@ -105,6 +112,7 @@
     font-size: 16px;
     padding-right: 500px;
     background-color: var(--cor-branco);
+    font-weight: 400;
 }
 
 
@@ -140,7 +148,7 @@
 .container__skills__logo__botao__texto{
     /* background-color: var(--cor-branco); */
     font-size: 16px;
-    
+    font-weight: 500;
 }
 
 
@@ -176,7 +184,7 @@
 .container__hobbies__logo__botao__texto{
     /* background-color: var(--cor-branco); */
     font-size: 16px;
-    
+    font-weight: 500;
 }
 
 
@@ -189,12 +197,13 @@
     flex-direction: column;
     align-items: center;
     gap: 32px;
-    padding: 50px 250px 50px 250px;
+    padding: 150px 250px 150px 250px;
 }
 
 .container__formacao__titulo{
     background-color: var(--cor-branco);
     font-size: 32px;
+    
 }
 
 /* logos */
@@ -215,5 +224,136 @@
 .container__formacao__logo__botao__texto{
     background-color: var(--cor-branco);
     font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/* Projetos */
+
+/* Geral */
+.container__projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 50px 250px 50px 250px;
+}
+
+.container__projetos__titulo{
+    font-size: 32px;
+}
+
+/* Codificador */
+
+.container__projetos__codificador{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 32px;
+}
+
+.container__projetos__codificador__imagem{
+    width: 752px;
+    height: 406px;
+}
+
+
+.container__projetos__codificador__direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+/* Texto */
+
+.container__projetos__codificador__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__projetos__codificador__texto__titulo{
+    font-size: 22px;
+}
+.container__projetos__codificador__texto__subtitulo{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Botao */
+
+.container__projetos__codificador__botao{
+    font-size: 16px;
+    gap: 16px;
+    
+}
+
+.container__projetos__codificador__botao__repositorio{
+    padding: 16px;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+}
+.container__projetos__codificador__botao__demo{
+    padding: 16px;
+    background-color: var(--cor-branco);
+    text-decoration: none;
+}
+
+
+/* Jogo secreto */
+
+.container__projetos__secreto{
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+}
+
+.container__projetos__secreto__imagem{
+    width: 752px;
+    height: 406px;
+}
+
+
+.container__projetos__secreto__direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+/* Texto */
+
+.container__projetos__secreto__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__projetos__secreto__texto__titulo{
+    font-size: 22px;
+}
+.container__projetos__secreto__texto__subtitulo{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Botao */
+
+.container__projetos__secreto__botao{
+    font-size: 16px;
+    gap: 50px;
+    
+}
+
+.container__projetos__secreto__botao__repositorio{
+    padding: 16px;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+}
+.container__projetos__secreto__botao__demo{
+    padding: 16px;
+    background-color: var(--cor-branco);
+    text-decoration: none;
 }
 

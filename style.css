@@ -8,13 +8,16 @@
     --fonte: "Raleway", sans-serif;
 }
 
+/* Padrao */
 *{
+    background-color: var(--cor-branco-preto);
+    color: var(--cor-preto);
+    font-family: var(--fonte);
     margin: 0px;
     padding: 0px;
-    font-family: var(--fonte);
-    color: var(--cor-preto);
-    background-color: var(--cor-branco-preto);
 }
+
+
 
 /* Header */
 .header{
@@ -22,71 +25,67 @@
     justify-content: space-around;
     padding-top: 32px;
     padding-bottom: 32px;
-    
-    
 }
-
 .header__botao{
     text-decoration: none;
 }
-
 .header__opcoes{
     display: flex;
     gap: 32px;
 }
+
+
 
 /* Conteudo */
 .container{
     display: flex;
     flex-direction: column;
     gap: 32px;
-    
 }
 
+
+
 /* Inicio */
-.container__inicio{
+.inicio{
     display: flex;
     justify-content: space-around;
     padding: 0px 250px 0px 250px;
-    
 }
-.container__inicio__esquerda{
+.inicio__esquerda{
     display: flex;
-    
-    gap: 12px;
     flex-flow: column wrap;
+    gap: 12px;
     padding-top: 62px;
     padding-bottom: 62px;
     padding-right: 50px;
 }
 
 /* texto */
-.container__inicio__esquerda__titulo{
+.inicio__esquerda__titulo{
     font-size: 52px;
-    flex-wrap: wrap;
 }
-.container__inicio__esquerda__subtitulo{
+.inicio__esquerda__subtitulo{
     font-size: 22px;
-    padding-right: 50px;
     font-weight: 400;
+    padding-right: 50px;
 }
 
 /* link */
-.container__inicio__link{
-    padding-right: 50px;
-    gap: 32px;
+.inicio__link{
     display: flex;
     flex-direction: row;
     list-style: none;
+    gap: 32px;
+    padding-right: 50px;
 }
-.container__inicio__link__texto{
+.inicio__link__texto{
     font-size: 16px;
-    text-decoration: none;
     font-weight: 300;
+    text-decoration: none;
 }
 
 /* foto */
-.container__inicio_foto{
+.inicio_foto{
     border-radius: 100%;
     height: 1%;
     width: 20%;
@@ -97,56 +96,53 @@
 
 
 /* sobre Mim */
-.container__sobreMim{
+.sobreMim{
+    background-color: var(--cor-branco);
     display: flex;
     flex-flow: column wrap;
     gap: 16px;
-    background-color: var(--cor-branco);
     padding: 150px 250px 150px 250px;
 }
-.container__sobreMim__titulo{
+.sobreMim__titulo{
+    background-color: var(--cor-branco);
     font-size: 32px;
-    background-color: var(--cor-branco);
 }
-.container__sobreMim__subtitulo{
-    font-size: 16px;
-    padding-right: 500px;
+.sobreMim__subtitulo{
     background-color: var(--cor-branco);
+    font-size: 16px;
     font-weight: 400;
+    padding-right: 500px;
 }
 
 
 
 /* Skills */
-.container__skills{
+.skills{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
     padding: 50px 250px 50px 250px;
 }
-.container__skills__titulo{
+.skills__titulo{
     font-size: 32px;
 }
 
 /* Logos */
-.container__skills__logo{
+.skills__logo{
     display: flex;
     flex-flow: row wrap;
     gap: 75px;
 }
-.container__skills__logo_botao{
-    /* background-color: var(--cor-branco); */
+.skills__logo_botao{
     display: flex;
     justify-content: center;
 }
-.container__skills__logo_icon{
+.skills__logo_icon{
     width: 50px;
     height: 50px;
-    /* background-color: var(--cor-branco); */
 }
-.container__skills__logo__botao__texto{
-    /* background-color: var(--cor-branco); */
+.skills__logo__botao__texto{
     font-size: 16px;
     font-weight: 500;
 }
@@ -154,35 +150,27 @@
 
 
 /* hobbies */
-.container__hobbies{
+.hobbies{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
     padding: 50px 250px 50px 250px;
-    /* background-color: var(--cor-branco); */
 }
-.container__hobbies__titulo{
+.hobbies__titulo{
     font-size: 32px;
-    /* background-color: var(--cor-branco); */
 }
 
 /* logos */
-.container__hobbies__logo{
+.hobbies__logo{
     display: flex;
     gap: 40px;
-    /* background-color: var(--cor-branco); */
 }
-.container__hobbies__logo__botao{
-    
-}
-.container__hobbies__logo_icon{
+.hobbies__logo_icon{
     width: 50px;
     height: 50px;
-    /* background-color: var(--cor-branco); */
 }
-.container__hobbies__logo__botao__texto{
-    /* background-color: var(--cor-branco); */
+.hobbies__logo__botao__texto{
     font-size: 16px;
     font-weight: 500;
 }
@@ -191,7 +179,7 @@
 
 /* formacao */
 
-.container__formacao{
+.formacao{
     background-color: var(--cor-branco);
     display: flex;
     flex-direction: column;
@@ -199,29 +187,24 @@
     gap: 32px;
     padding: 150px 250px 150px 250px;
 }
-
-.container__formacao__titulo{
+.formacao__titulo{
     background-color: var(--cor-branco);
     font-size: 32px;
-    
 }
 
 /* logos */
-.container__formacao__logo{
+.formacao__logo{
     background-color: var(--cor-branco);
     display: flex;
     gap: 40px;
 }
-
-.container__formacao__logo_icon{
+.formacao__logo_icon{
     background-color: var(--cor-branco);
 }
-
-.container__formacao__logo__botao{
+.formacao__logo__botao{
     background-color: var(--cor-branco);
 }
-
-.container__formacao__logo__botao__texto{
+.formacao__logo__botao__texto{
     background-color: var(--cor-branco);
     font-size: 16px;
     font-weight: 500;
@@ -232,33 +215,33 @@
 /* Projetos */
 
 /* Geral */
-.container__projetos{
+.projetos{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
     padding: 50px 250px 50px 250px;
 }
-
-.container__projetos__titulo{
+.projetos__titulo{
     font-size: 32px;
 }
 
 /* Codificador */
 
-.container__projetos__codificador{
+.codificador{
     display: flex;
     gap: 16px;
     padding-bottom: 32px;
 }
 
-.container__projetos__codificador__imagem{
+/* Imagem */
+.codificador__imagem{
     width: 752px;
     height: 406px;
 }
 
-
-.container__projetos__codificador__direita{
+/* Direita */
+.codificador__direita{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -267,55 +250,51 @@
 
 /* Texto */
 
-.container__projetos__codificador__texto{
+.codificador__texto{
     display: flex;
     flex-direction: column;
 }
-
-.container__projetos__codificador__texto__titulo{
+.codificador__texto__titulo{
     font-size: 22px;
 }
-.container__projetos__codificador__texto__subtitulo{
+.codificador__texto__subtitulo{
     font-size: 16px;
     font-weight: 400;
 }
 
 /* Botao */
-
-.container__projetos__codificador__botao{
+.codificador__botao{
     font-size: 16px;
     gap: 16px;
-    
 }
-
-.container__projetos__codificador__botao__repositorio{
-    padding: 16px;
+.codificador__botao__repositorio{
+    text-decoration: none;
     border-style: solid;
     border-width: 1px;
-    text-decoration: none;
-}
-.container__projetos__codificador__botao__demo{
     padding: 16px;
+}
+.codificador__botao__demo{
     background-color: var(--cor-branco);
     text-decoration: none;
+    padding: 16px;
 }
 
 
 /* Jogo secreto */
-
-.container__projetos__secreto{
+.secreto{
     display: flex;
     gap: 16px;
     padding-top: 32px;
 }
 
-.container__projetos__secreto__imagem{
+/* Imagem */
+.secreto__imagem{
     width: 752px;
     height: 406px;
 }
 
-
-.container__projetos__secreto__direita{
+/* Direita */
+.secreto__direita{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,37 +302,153 @@
 }
 
 /* Texto */
-
-.container__projetos__secreto__texto{
+.secreto__texto{
     display: flex;
     flex-direction: column;
 }
 
-.container__projetos__secreto__texto__titulo{
+.secreto__texto__titulo{
     font-size: 22px;
 }
-.container__projetos__secreto__texto__subtitulo{
+.secreto__texto__subtitulo{
     font-size: 16px;
     font-weight: 400;
 }
 
 /* Botao */
-
-.container__projetos__secreto__botao{
+.secreto__botao{
     font-size: 16px;
     gap: 50px;
+}
+.secreto__botao__repositorio{
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    padding: 16px;
+}
+.secreto__botao__demo{
+    background-color: var(--cor-branco);
+    text-decoration: none;
+    padding: 16px;
+}
+
+
+
+/* Contato */
+
+/* Geral */
+.contato{
+    background-color: var(--cor-branco);
+    display: flex;
+    align-self: center;
+    gap: 32px;
+    padding: 50px 450px 50px 450px;
+}
+
+/* Direita */
+.contato__direita{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
-.container__projetos__secreto__botao__repositorio{
-    padding: 16px;
-    border-style: solid;
-    border-width: 1px;
-    text-decoration: none;
+/* texto */
+.contato__direita_texto{
+    gap: 8px;
 }
-.container__projetos__secreto__botao__demo{
-    padding: 16px;
+.contato__titulo{
     background-color: var(--cor-branco);
-    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;  
+}
+.contato__texto{
+    background-color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 400;
 }
 
+/* TextArea */
+.contato__textArea{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column ;
+    position: relative;
+    margin-bottom: 20px;
+    gap: 32px;
+}
+
+/* Nome */
+.contato__nome{
+    background-color: var(--cor-branco);
+    /* display: block; */
+    font-size: 12px;
+    padding: 0px 0px 20px 0px;
+}
+
+/* Email */
+.contato__email{
+    background-color: var(--cor-branco);
+    font-size: 12px;
+    padding: 0px 0px 20px 0px;
+}
+
+/* Assunto */
+.contato__assunto{
+    background-color: var(--cor-branco);
+    font-size: 12px;
+    padding: 0px 0px 20px 0px;
+}
+
+/* Mensagem */
+.contato__mensagem{
+    background-color: var(--cor-branco);
+    font-size: 12px;
+    padding: 0px 0px 92px 0px;
+}
+
+/* Botao */
+.contato__botao{
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    text-decoration: none;
+    font-size: 16px;
+    width:  176px;
+    padding: 16px;
+}
+
+/* 
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  color: #999;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+// Quando o input estiver preenchido ou focado //
+.input-text:focus + .input-label,
+.input-text:not(:placeholder-shown) + .input-label {
+  top: -15px;
+  left: 10px;
+  font-size: 12px;
+  color: #333;
+}
+*/

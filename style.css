@@ -362,12 +362,13 @@
 
 /* texto */
 .contato__direita_texto{
-    gap: 8px;
+    gap: 16px;
 }
 .contato__titulo{
     background-color: var(--cor-branco);
     font-size: 32px;
-    font-weight: 700;  
+    font-weight: 700;
+     padding-bottom: 13px;
 }
 .contato__texto{
     background-color: var(--cor-branco);
@@ -375,7 +376,7 @@
     font-weight: 400;
 }
 
-/* TextArea */
+/* Geral */
 .contato__textArea{
     background-color: var(--cor-branco);
     display: flex;
@@ -386,41 +387,71 @@
 }
 
 /* Nome */
-
 .contato__nome{
-    background-color: var(--cor-branco); 
+    background-color: var(--cor-branco-preto); 
     display: flex;
     flex-direction: column;
-    font-size: 12px;
-    padding: 0px 0px 20px 0px;
 }
-
 .contato__nome__label{
-    
+    background-color: var(--cor-branco-preto);
+    font-size: 12px;
 }
-
-
-
+.contato__nome__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 25px 0px;
+}
 
 /* Email */
 .contato__email{
-    background-color: var(--cor-branco);
+    background-color: var(--cor-branco-preto); 
+    display: flex;
+    flex-direction: column; 
+}
+.contato__email__label{
+    background-color: var(--cor-branco-preto);
     font-size: 12px;
-    padding: 0px 0px 20px 0px;
+}
+.contato__email__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 25px 0px;
 }
 
 /* Assunto */
 .contato__assunto{
-    background-color: var(--cor-branco);
+    background-color: var(--cor-branco-preto); 
+    display: flex;
+    flex-direction: column;
+}
+.contato__assunto__label{
+    background-color: var(--cor-branco-preto);
     font-size: 12px;
-    padding: 0px 0px 20px 0px;
+}
+.contato__assunto__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 25px 0px;
 }
 
 /* Mensagem */
 .contato__mensagem{
-    background-color: var(--cor-branco);
+    background-color: var(--cor-branco-preto); 
+    display: flex;
+    flex-direction: column;
+}
+.contato__mensagem__label{
+    background-color: var(--cor-branco-preto);
     font-size: 12px;
-    padding: 0px 0px 92px 0px;
+}
+.contato__mensagem__input{
+    background-color: var(--cor-branco-preto);
+    font-size: 16px;
+    border-style: none;
+    padding: 0px 0px 40px 0px;
 }
 
 /* Botao */

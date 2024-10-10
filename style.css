@@ -107,11 +107,18 @@
     background-color: var(--cor-branco);
     font-size: 32px;
 }
-.sobreMim__subtitulo{
+.sobreMim__texto{
     background-color: var(--cor-branco);
     font-size: 16px;
     font-weight: 400;
     padding-right: 500px;
+}
+
+.sobreMim__strong{
+    background-color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 600;
+    
 }
 
 

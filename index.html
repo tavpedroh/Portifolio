@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <header class="header">
     <h4>Pedro Henrique</h4>
@@ -155,7 +156,7 @@
                     <h3 class="contato__texto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
                 </div>
 
-                <form class="contato__textArea">
+                <form id="contato__form" class="contato__textArea">
                     <div class="contato__nome">
                         <label for="nome" class="contato__nome__label" req>Nome</label>
                         <input type="text" id="Nome" class="contato__nome__input">
@@ -172,7 +173,7 @@
                         <label for="mensagem" class="contato__mensagem__label">Mensagem</label>
                         <textarea id="mensagem" class="contato__mensagem__input"></textarea>
                     </div>
-                    <button type="submit" href="" class="contato__botao">Enviar mensagem</button>
+                    <button type="submit" id="Button" class="contato__botao">Enviar mensagem</button>
                 </form>
 
             </div>
@@ -183,4 +184,5 @@
     <h4 class="footer__texto">Desenvolvido por Pedro Henrique</h4>
     <h5 class="footer__texto">2024</h5>
 </footer>
+<script src="app.js"></script>
 </html>

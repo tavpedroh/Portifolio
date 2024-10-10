@@ -108,17 +108,19 @@
                 <div class="formacao__logo__botao">
                     <img src="./image/icons/formacao/cefet icon.png" alt="cefet Icon" class="formacao__logo_icon">
                     <h5 class="formacao__logo__botao__texto">Sistemas de Informação</h5>
+                    <h6 class="formacao__logo__botao__subTexto">Em andamento - Cefet-rj</h6>
                 </div>
                 <div class="formacao__logo__botao">
                     <img src="./image/icons/formacao/alura icon.png" alt="alura Icon" class="formacao__logo_icon">
                     <h5 class="formacao__logo__botao__texto">Formação One</h5>
+                    <h6 class="formacao__logo__botao__subTexto">Em andamento - Alura</h6>
                 </div>
             </div>
         </section>
         <section id="projetos" class="projetos">
             <p class="projetos__titulo">Experiência Profissional</p>
             <div class="codificador">
-                <img src="./image/decodificador.png" class="codificador__imagem">
+                <img src="./image/decodificador.png" class="codificador__imagem" alt="Site do codificador de Texto">
                 <div class="codificador__direita">
                     <div class="projetos__codificador__texto">
                         <h4 class="codificador__texto__titulo">Decodificador de Texto</h4>
@@ -141,7 +143,7 @@
                         <a href="https://jogo-numero-secreto-pedros-projects-6aa81bb0.vercel.app" class="secreto__botao__demo" target="_blank"> Ver Demo</a>
                     </div>
                 </div>
-                <img src="./image/jogo-secreto.png" class="secreto__imagem">
+                <img src="./image/jogo-secreto.png" class="secreto__imagem" alt="Site do jogo do numero secreto">
             </div>
         </section>
         <section id="contato" class="contato">
@@ -152,14 +154,27 @@
                     <h3 class="contato__texto">Quer entrar em contato comigo?</h3>
                     <h3 class="contato__texto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
                 </div>
-                <div class="contato__textArea">
-                    <input type="text" class="contato__nome" id="Nome" placeholder="Nome">
-                    <label for="Nome" class="contato__nome">Nome</label>
-                    <input type="email" class="contato__email" placeholder="E-mail">
-                    <input type="text" class="contato__assunto" placeholder="Assunto">
-                    <textarea class="contato__mensagem" placeholder="Mensagem"></textarea>
-                </div>     
-                <button type="submit" href="" class="contato__botao">Enviar mensagem</a>
+
+                <form class="contato__textArea">
+                    <div class="contato__nome">
+                        <label for="nome" class="contato__nome__label" req>Nome</label>
+                        <input type="text" class="contato__nome__input" id="Nome"  required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="contato__email" placeholder="E-mail">
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" placeholder="Assunto">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+                    </div>
+                    <button type="submit" href="" class="contato__botao">Enviar mensagem</button>
+                </form>
+
             </div>
         </section>
     </main>

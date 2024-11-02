@@ -3,10 +3,10 @@
         {
             "id": 1,
             "nome": "Pedro",
-            "e-mail": "pedroh.tav.p@gmail.com",
+            "email": "pedroh.tav.p@gmail.com",
             "assunto": "Adorei seu portifolio",
             "mensagem": "Por favor, crie um site incrivel como esse para mim."
         }
-        
+
     ]
 }

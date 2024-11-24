@@ -159,22 +159,22 @@
                     <h3 class="contato__texto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
                 </div>
 
-                <form id="contato__form" class="contato__textArea">
+                <form id="contato__form" class="contato__textArea" data-formulario>
                     <div class="contato__nome">
                         <label for="nome" class="contato__nome__label" req>Nome</label>
-                        <input type="text" id="Nome" class="contato__nome__input">
+                        <input type="text" id="Nome" class="contato__nome__input" data-nome>
                     </div>
                     <div class="contato__email">
                         <label for="email" class="contato__email__label">E-mail</label>
-                        <input type="email" id="email" class="contato__email__input">
+                        <input type="email" id="email" class="contato__email__input" data-email>
                     </div>
                     <div class="contato__assunto">
                         <label for="assunto" class="contato__assunto__label">Assunto</label>
-                        <input type="text" id="assunto" class="contato__assunto__input">
+                        <input type="text" id="assunto" class="contato__assunto__input" data-assunto>
                     </div>
                     <div class="contato__mensagem">
                         <label for="mensagem" class="contato__mensagem__label">Mensagem</label>
-                        <textarea id="mensagem" class="contato__mensagem__input"></textarea>
+                        <textarea id="mensagem" class="contato__mensagem__input" data-mensagem></textarea>
                     </div>
                     <button type="submit" id="Button" class="contato__botao">Enviar mensagem</button>
                 </form>
@@ -187,5 +187,5 @@
     <h4 class="footer__texto">Desenvolvido por Pedro Henrique</h4>
     <h5 class="footer__texto">2024</h5>
 </footer>
-<script src="app.js"></script>
+<script src="form.js"></script>
 </html>

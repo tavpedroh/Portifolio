@@ -2,10 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar.jsx';
 
-import Home from './pages/Home/home.jsx';
-import About from './pages/About/about.jsx';
-import Projects from './pages/Projects/projects.jsx';
-import Contact from './pages/Contact/contact.jsx';
+import Home from './pages/Home/Home.jsx';
+import About from './pages/About/About.jsx';
+import Projects from './pages/Projects/Projects.jsx';
+import Contact from './pages/Contact/Contact.jsx';
 
 import './styles/global.css';
 import Footer from './components/Footer/Footer.jsx';

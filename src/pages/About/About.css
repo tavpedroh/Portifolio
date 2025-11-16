@@ -1,0 +1,163 @@
+
+.about-page {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.page-title {
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.about-section {
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+.section-heading {
+    font-size: 1.8rem;
+    color: #4a515e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+/* --- Introdução --- */
+.about-intro {
+    background-color: var(--color-bg-card);
+    box-shadow: 0 2px 5px var(--color-shadow);
+    padding: 30px;
+    border-radius: 12px;
+    line-height: 1.7;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 15px;
+}
+
+.about-text span {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+/* --- Skills (Tags) --- */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background-color: #383838;
+    color: var(--color-accent); 
+    border: 1px solid #444;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.skill-tag:hover {
+    background-color: #4a4a4a;
+}
+
+/* --- Linha do Tempo (Timeline) da Experiência --- */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+/* A linha vertical */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: var(--color-border);
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 20px; 
+}
+
+/* O ponto na linha do tempo */
+.timeline-dot {
+    position: absolute;
+    top: 5px;
+    left: -18px; 
+    width: 14px;
+    height: 14px;
+    background-color: var(--color-bg-card); 
+    border: 3px solid var(--color-accent);
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.exp-role {
+    font-size: 1.4rem;
+    color: var(--color-text-primary);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.exp-company-duration {
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.exp-description {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+/* Ajustes para Responsividade */
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+    .timeline {
+        padding-left: 20px;
+    }
+    .timeline::before {
+        left: -5px;
+    }
+    .timeline-dot {
+        left: -15px;
+    }
+    .timeline-item {
+        padding-left: 10px;
+    }
+}
+
+.about-text.highlight {
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: var(--color-accent);
+    border-top: 1px dashed var(--color-border);
+}
+
+/* Estilos para diferenciar os tipos de item na timeline */
+.timeline-item.education .timeline-dot {
+    border-color: #ffb74d; /* Amarelo/Laranja para Educação */
+}
+
+.timeline-item.project .timeline-dot {
+    border-color: #81c784; /* Verde para Projetos */
+}
+
+.timeline-item.course .timeline-dot {
+    border-color: #ba68c8; /* Roxo para Cursos */
+}

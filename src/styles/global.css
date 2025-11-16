@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Mono:wght@400;600&display=swap'); /* Sugestão de fonte minimalista */
+
+:root {
+    /* --- CORES DARK MODE --- */
+    --color-bg-page: #1a1a1a;        /* Fundo da página (Preto Suave) */
+    --color-bg-card: #282828;        /* Fundo de componentes/cards */
+    --color-text-primary: #ffffff;   /* Texto Principal (Branco) */
+    --color-text-secondary: #aaaaaa; /* Texto Secundário (Cinza Claro) */
+    --color-accent: #00bcd4;         /* Destaque (Um Ciano Sutil) */
+    --color-border: #333333;         /* Linhas e bordas */
+    --color-shadow: rgba(0, 0, 0, 0.4);
+    
+    /* --- TIPOGRAFIA --- */
+    --font-primary: 'Inter', sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+}
+
+/* Aplicando as variáveis no body */
+body {
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    background-color: var(--color-bg-page);
+    color: var(--color-text-primary);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s; /* Transição suave para o fundo */
+}
+
+/* Reseta links para usar a cor de destaque */
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: var(--color-text-primary);
+    font-weight: 700;
+}

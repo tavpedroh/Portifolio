@@ -1,0 +1,56 @@
+
+.site-footer {
+    padding: 30px 20px;
+    background-color: var(--color-bg-card); 
+    border-top: 1px solid var(--color-border); 
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- Links de Navegação (Opcional) --- */
+.footer-nav {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-link {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: var(--color-accent); 
+}
+
+/* --- Links Sociais --- */
+.footer-social {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 1.8rem; 
+    color: var(--color-text-secondary);
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: var(--color-accent);
+}
+
+/* --- Direitos Autorais --- */
+.footer-copyright {
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+    margin-top: 15px;
+}

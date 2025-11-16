@@ -1,0 +1,127 @@
+/* src/pages/Home/Home.css */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 4rem auto 6rem; 
+    padding: 0 2rem;
+    min-height: 70vh; 
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-greeting {
+    font-size: 1.2rem;
+    color: var(--color-accent); 
+    margin-bottom: 0.5rem;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin: 0 0 10px 0;
+    color: var(--color-text-primary);
+}
+
+.hero-role {
+    font-size: 1.8rem;
+    color: var(--color-text-secondary);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero-pitch {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: var(--color-text-secondary);
+}
+
+/* --- Botões CTA --- */
+.hero-cta {
+    display: flex;
+    gap: 15px;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.primary-button {
+    background-color: var(--color-accent);
+    color: var(--color-bg-card); 
+    border: 2px solid var(--color-accent);
+}
+
+.primary-button:hover {
+    background-color: var(--color-accent);
+    transform: translateY(-2px);
+}
+
+.secondary-button {
+background-color: transparent;
+    color: var(--color-accent);
+    border: 2px solid var(--color-accent);
+}
+
+.secondary-button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg-card);
+}
+
+/* --- Imagem de Placeholder --- */
+.placeholder-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%; /* Foto redonda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background-color: var(--color-bg-card);
+    color: var(--color-text-secondary);
+    border: 5px solid var(--color-accent);
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.4), 0 0 5px rgba(0, 0, 0, 0.5);
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%; 
+    object-fit: cover;
+    
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+        min-height: auto;
+    }
+
+    .hero-image-container {
+        order: -1; /* Manda a imagem para cima no mobile */
+        margin-bottom: 2rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-role {
+        font-size: 1.5rem;
+    }
+    
+    .hero-cta {
+        justify-content: center;
+    }
+}
